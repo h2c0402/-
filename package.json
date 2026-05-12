@@ -1,0 +1,11 @@
+{
+  "name": "gempo-desk-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "description": "現場ポケット風の現場管理プロトタイプ",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "node -e \"require('fs').mkdirSync('dist',{recursive:true}); for (const f of ['index.html','styles.css','app.js']) require('fs').copyFileSync(f,'dist/'+f); require('fs').cpSync('assets','dist/assets',{recursive:true});\""
+  },
+  "devDependencies": {}
+}

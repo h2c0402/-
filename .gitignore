@@ -1,0 +1,15 @@
+.npm-cache*/
+.xdg-data*/
+.xdg-config*/
+.appdata*/
+.localappdata*/
+.vercel/
+repo-data/
+vercel-login.out
+vercel-login.err
+vercel-login.cmd
+vercel-deploy.cmd
+dist/
+node_modules/
+.DS_Store
+Thumbs.db
